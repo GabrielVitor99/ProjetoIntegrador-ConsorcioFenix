@@ -1,0 +1,24 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3498db; /* Cor de fundo azul */
+    margin: 0; /* Remova as margens padrão do body */
+}
+
+.form-signing {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    max-width: 350px; /* Largura máxima do formulário */
+    width: 100%; /* Largura de 100% para preencher o espaço disponível */
+    text-align: center; /* Alinhamento centralizado do conteúdo */
+    box-sizing: border-box; /* Evitar que as bordas afetem a largura total */
+}
+
+.form-signing img {
+    max-width: 100%; /* Garantir que a imagem não ultrapasse a largura do formulário */
+    margin-bottom: 20px; /* Adicionar margem na parte inferior da imagem */
+}
